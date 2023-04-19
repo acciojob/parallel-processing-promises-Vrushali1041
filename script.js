@@ -1,11 +1,11 @@
 //your JS code here. If required.
 // Array of image URLs to download
 const images = [
-  { url: 'https://via.placeholder.com/150', name: 'Image 1' },
-  { url: 'https://via.placeholder.com/250', name: 'Image 2' },
-  { url: 'https://via.placeholder.com/350', name: 'Image 3' },
-  { url: 'https://via.placeholder.com/450', name: 'Image 4' },
-  { url: 'https://via.placeholder.com/550', name: 'Image 5' },
+ { name: "cat", url: "https://placekitten.com/200/300" },
+  { name: "dog", url: "https://placedog.net/200/300" },
+  { name: "hamster", url: "https://placehamster.com/200/300" },
+  { name: "fox", url: "https://placefox.com/200/300" },
+  { name: "owl", url: "https://placeowl.com/200/300" },
 ];
 
 // Function to download the images and display them on the webpage
